@@ -1,0 +1,26 @@
+---
+layout: page
+title: Graphics and Templates
+---
+<section>
+	<article class="graphics-page">
+		<h2>{{page.title}}</h2>
+		<p>If you need some fresh graphics for your marketing content, have a look at the designs we have for you.</p>
+		
+		{% for item in site.content-graphics %}
+		<div class="product-item">
+			<div class="product-image"><img src="{{site.url}}/assets/img/{{ item.image }}"></div>
+			<div class="product-name"><h3>{{ item.name }}</h3></div>
+			<div class="product-blurb"><p>{{ item.content | markdownify }}</p></div>
+			<div class="product-buttons">
+				<button onclick="location.href='http://andy.cymru/{{item.demo}}/'" class="demo" target="_blank">See Example</button>
+				<button onclick="location.href='https://github.com/andycymru/{{item.download}}/archive/gh-pages.zip'" class="download">Download Theme</button>
+			</div>
+		</div>
+		{% endfor %}
+	
+	</article>
+	
+	{% include custom.html %}
+	
+</section>

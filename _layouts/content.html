@@ -1,0 +1,76 @@
+---
+---
+{% include header.html %}  	
+	
+	<section>
+		<article class="blog-page">
+			
+			<cat>{{ page.category }} | {{ page.section }}</cat>
+			<h2>{{ page.title }}</h2>
+			<hr></hr>
+			
+				
+			<span><date>{{ page.date | date:"%-d %b %Y" }}</date> <author>| by  {{ page.author }}</author></span>
+				
+			<img src="{{ site.url }}/assets/img/{{ page.image }}" title="{{ page.title }}">
+			
+			<content>{{ content }}</content>
+
+		
+			<div class="post-tags">
+                Tags:
+                {% if post %}
+                {% assign tags = post.tags %}
+                {% else %}
+                {% assign tags = page.tags %}
+                {% endif %}
+
+                {% for tag in tags %}
+                    <a href="/tags/#{{tag|slugize}}">{{tag}}</a>{% unless forloop.last %}{% endunless %}
+                {% endfor %}
+            </div>
+		
+			<hr></hr>
+
+			<div class="pagination">
+			   <div class="left">
+				  {% if page.previous %}
+					<a href="{{ page.previous.url }}" title="{{ page.previous.title }}">&larr;</a>
+				  {% else %}
+					<a>&larr; Prev</a>
+				  {% endif %}
+			   </div> 
+			   <div class="right">
+				  {% if page.next %}
+					<a href="{{ page.next.url }}" title="{{ page.next.title }}"> &rarr;</a>
+				  {% else %}
+					<a>Next &rarr;</a>
+				  {% endif %}
+			  </div>
+			
+			  <div class="clear">
+				  <button onclick="goBack()" class="button">&larr; Go Back</button>
+			  </div>
+			</div>
+
+
+			<div class="blog-social">
+                <h3>Share with your friends...</h3>
+                <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on Facebook" class="facebook">Facebook</a>
+                
+				<a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter }}&related={{ site.twitter }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on Twitter" class="twitter">Twitter</a>
+                
+				<a href="https://instagram.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.instagram }}&related={{ site.instagram }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on instagram" class="instagram">Instagram</a>
+				
+				<a href="https://pinterest.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.pinterest }}&related={{ site.pinterest }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on Pinterest" class="pinterest">Pinterest</a>
+				
+				<a href="https://linkedin.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.linkedin }}&related={{ site.linkedin }}" rel="nofollow" target="_blank" title="Share '{{ page.title }}' on LinkedIn" class="linkedin">LinkedIn</a>
+				
+				<a href="mailto:?subject={{ page.title }}&amp;body=Check out this post {{ site.url }}{{site.baseurl}}{{ page.url }}" title="Share '{{ page.title }}' on Email" class="email" target="_blank">Email</a>
+                <div class="clear"></div>
+			</div>
+			
+		</article>
+	</section>
+
+	{% include footer.html %}

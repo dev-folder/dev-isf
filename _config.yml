@@ -1,0 +1,27 @@
+name: ImSoFunky
+author: Andy Brown
+title: ImSoFunky
+description: 'ImSoFunky is a web design company specialising in providing services for the music industry.'
+markdown: kramdown
+url: 'https://andy.cymru/ImSoFunky2.0'
+baseurl: "https://andy.cymru/ImSoFunky2.0"
+permalink: /blog/:categories/:title/
+exclude: ['README.md']
+future: true
+paginate: 1
+paginate_path: "/blog/page:num/"
+plugins: [jekyll-paginate]
+# Social Media Accounts
+facebook: imsofunkyonline
+twitter: imsofunky
+instagram: imsofunky
+pinterest: imsofunky
+linkedin: imsofunky
+email: andy@andy.cymru
+collections:
+  content-web:
+    output: true
+  content-graphics:
+    output: true
+  content-social:
+    output: true

@@ -1,1 +1,68 @@
+---
+layout: default
+lang: en
+ref: index
+---
 
+	<section>
+	
+		<article class="web-themes">
+			<h2>Web Themes</h2>
+			<p>Looking for a new website look? or need a fresh wordpress or html template design</p>
+			<button class="cta" onclick="location.href='{{sites.url}}/web/'">See More</button>
+		</article>
+		
+		<article class="graphic-templates">
+			<h2>Graphic Templates</h2>
+			<p>Need a website for your project asap? but you want it to look hot and beat your competition, install our template now and have your website online within five minutes.</p>
+			<button class="cta" onclick="location.href='{{sites.url}}/graphics/'">See More</button>
+		</article>
+		
+		<article class="social-templates">
+			<h2>Social Media<br>Resources</h2>
+			<p>Need fresh artwork so your brand can stand out on social media</p>
+			<p>We have a range of designs you can choose from.</p>
+			<button class="cta" onclick="location.href='{{sites.url}}/social/'">See More</button>
+		</article>
+		
+		<!--
+		<article class="latest-templates">
+			 <img src="img/content-image.jpg"> 
+			<h2>Our Latest Templates</h2>
+			<p>Here are our websites and graphics for you to download for free or a paid option.</p>
+			
+			{% for item in site.collections %}
+			<ul>
+			<li><div class="product-item">
+				<div class="product-image"><img src="{{site.url}}/assets/img/{{ item.image }}"></div>
+				<div class="product-name"><h3>{{ item.name }}</h3></div>
+				<div class="product-blurb"><p>{{ item.content | markdownify }}</p></div>
+				<div class="product-buttons">
+					<button onclick="location.href='http://andy.cymru/{{item.demo}}/'" class="demo" target="_blank">See Example</button>
+					<button onclick="location.href='https://github.com/andycymru/{{item.download}}/archive/gh-pages.zip'" class="download">Download Theme</button>
+				</div>
+			</div></li>
+			</ul>
+			{% endfor %}
+			-->
+		</article>
+		
+		<article class="home-blog">
+			<h2>Our Recent Posts</h2>
+			<ul>
+				{% for post in site.posts limit:3 %}
+					<li><a href="{{ BASE_PATH }}{{ site.url }}{{ post.url }}">
+						<img src="{{ site.url }}/assets/img/blog-images/{{ post.image }}" title="{{ post.title }}"></a>
+						<div class="blog-content">
+							<h3>{{ post.title  | truncate: 90 }}</h3>
+							<p>{{ post.excerpt }}</p>
+							<div class="p-btn"><a href="{{ BASE_PATH }}{{ site.url }}{{ post.url }}">Read More</a></div>
+						</div>
+					</li>
+				{% endfor %}
+			<div class="clear"></div>
+            </ul>
+		</article>
+		
+		{% include custom.html %}
+	</section>

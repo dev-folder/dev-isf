@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ImSoFunky</title>
+    <description>ImSoFunky is a web design company specialising in providing services for the music industry.</description>
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/disbiz.jpg</url>
+	  <title>Calling disabled business and entrepreneurs</title>
+	  <link>http://localhost:4000/blog/business/Calling-disabled-business-and-entrepreneurs/</link>
+	 </image>
+      <item>
+        <title>Calling disabled business and entrepreneurs</title>
+        <description>&lt;h1 id=&quot;calling-disabled-business-and-entrepreneurs&quot;&gt;Calling disabled business and entrepreneurs&lt;/h1&gt;
+&lt;p&gt;Since I started working in business I have often needed to look for advice on a way of tackling a situation due to my disability. There was never a place I could go to, there were many mummy’preneur groups, LGBT groups, ethnic minority groups etc but I could never find a good one that represented me in business. Don’t get my wrong there are disability support groups, but they often tend to be political or bashing on the bad side of life.&lt;/p&gt;
+
+&lt;p&gt;So I decided I would setup my own project. It’s called ‘disBiz’ which is short for ‘disabled business’ and the aim is to provide informative and constructive advice for building/running a business with a disability. There are many business advice websites already, but disBiz is more aimed at business through a disabled eye. It’s a lot more focused on disability specifics.&lt;/p&gt;
+
+&lt;p&gt;It is a project that I have often needed through starting and running my business. A place I can go where there are people in the same boat and have faced the same issues as me. I hope this project helps many people for the future.&lt;/p&gt;
+
+&lt;p&gt;Visit: &lt;a href=&quot;http://www.disbiz.co&quot;&gt;disbiz.co&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 07 Jun 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/business/Calling-disabled-business-and-entrepreneurs/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/business/Calling-disabled-business-and-entrepreneurs/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/blog.jpg</url>
+	  <title>Looking Professional With Email</title>
+	  <link>http://localhost:4000/blog/business/looking-professional-with-email/</link>
+	 </image>
+      <item>
+        <title>Looking Professional With Email</title>
+        <description>&lt;p&gt;Email has been the main staple of digital communication since the early days of the internet. It took off instantly and before long everyone seemed to communicate over email, especially in business. Hotmail, aol and yahoo were the main services that people used for email.&lt;/p&gt;
+
+&lt;p&gt;As email has evolved, in the business world many people have Hotmail, yahoo, gmail etc.. accounts. In this day these are fine for personal use, but for business it is important to use your domain email address. When you purchase a domain you will be provided with a facility to use email addresses. Whether via an inbox or forwarding to a gmail/hotmail etc account.&lt;/p&gt;
+
+&lt;p&gt;Using a domain email will provide a much more professional image when communicating with a client.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/business/looking-professional-with-email/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/business/looking-professional-with-email/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/blog.jpg</url>
+	  <title>Launching Your Website</title>
+	  <link>http://localhost:4000/blog/website/launching-your-website/</link>
+	 </image>
+      <item>
+        <title>Launching Your Website</title>
+        <description>&lt;p&gt;Are you looking to launch your new website and in need of some tips to make sure its a bit. We have uncovered a top 5 list that you need to make sure you cover before and during your launch.&lt;/p&gt;
+
+&lt;h2 id=&quot;1-awareness-on-social-media&quot;&gt;1. Awareness on Social Media&lt;/h2&gt;
+
+&lt;p&gt;Before you launch its important that the few months leading up to the big release that you have let your followers on social media know. etc…&lt;/p&gt;
+
+&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-this-is-the-heading-h3&quot;&gt;2. This is the heading h3&lt;/h3&gt;
+&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-this-is-the-heading-h4&quot;&gt;3. This is the heading h4&lt;/h4&gt;
+&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
+
+&lt;h5 id=&quot;4-this-is-the-heading-h5&quot;&gt;4. This is the heading h5&lt;/h5&gt;
+&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
+
+&lt;p&gt;In this post we discuss how to use social media effectivly to turn your social media followers in to customers and start making sales. Utilising a free resource to start earning you top profits.&lt;/p&gt;
+
+&lt;h1 id=&quot;imsofunky&quot;&gt;ImSoFunky&lt;/h1&gt;
+&lt;h2 id=&quot;imsofunky-web-themes--graphic-templates&quot;&gt;ImSoFunky Web Themes &amp;amp; Graphic Templates&lt;/h2&gt;
+&lt;p&gt;The site will have Wordpress and static themes aimed at smaller project sites, bands, musicians, weddings, etc…&lt;/p&gt;
+
+&lt;p&gt;Their will be a small selection of ‘lite’ themes that will be free but have a selection of main features taken out.&lt;/p&gt;
+
+&lt;p&gt;The theme will have a support tab in the dash that will be linked to videos of how to edit and update the website.&lt;/p&gt;
+
+&lt;p&gt;We will also have a service to install themes and setup things for people.&lt;/p&gt;
+
+&lt;p&gt;The site will have a blog feature that’s pushing all things web and marketing and social. Getting the best out of your small project.&lt;/p&gt;
+
+&lt;p&gt;The site will be a hub for small projects to get a full deal..&lt;/p&gt;
+
+&lt;p&gt;Themes for musicians, bands and artists.
+Themes for bloggers&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/website/launching-your-website/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/website/launching-your-website/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Work ethic to working smart!</title>
+	  <link>http://localhost:4000/blog/Work-ethic-to-working-smart!/</link>
+	 </image>
+      <item>
+        <title>Work ethic to working smart!</title>
+        <description>&lt;h1 id=&quot;work-ethic-to-working-smart&quot;&gt;Work ethic to working smart!&lt;/h1&gt;
+&lt;p&gt;I was approached recently with the question ‘with my 15 years experience of being freelance/self employed, what advice have I got for others embarking on their journey?’ And this got me thinking.&lt;/p&gt;
+
+&lt;p&gt;Success is a goal post thats different for everybody and each goal has a different journey to be met. But there are certain common factors that you need to follow  to create a solid base for reaching your target.&lt;/p&gt;
+
+&lt;p&gt;Here is my advice on important factors of what it takes to be successful in reaching your goals.&lt;/p&gt;
+
+&lt;h2 id=&quot;focus-on-your-tasks&quot;&gt;Focus on your tasks&lt;/h2&gt;
+&lt;p&gt;It’s important to setup small tasks that help you get closer to your big goal. Write them down and make sure you do the tasks within their time slot. Clear any distractions and focus to get the jobs done.&lt;/p&gt;
+
+&lt;h2 id=&quot;setup-a-daily-routine&quot;&gt;Setup a daily routine&lt;/h2&gt;
+
+&lt;h2 id=&quot;automate-as-much-as-possible&quot;&gt;Automate as much as possible&lt;/h2&gt;
+&lt;p&gt;Either apps to do the heavy lifting or hire someone to help you with certain tasks.&lt;/p&gt;
+
+&lt;h2 id=&quot;persistence-is-key&quot;&gt;Persistence is key&lt;/h2&gt;
+
+&lt;h2 id=&quot;network-as-much-as-possible&quot;&gt;Network as much as possible&lt;/h2&gt;
+&lt;p&gt;You need to network online via social, but also offline too.&lt;/p&gt;
+
+&lt;p&gt;Daily work routine
+Persistence to keep going and turning up
+Network on or offline&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Work-ethic-to-working-smart!/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Work-ethic-to-working-smart!/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Traditional marketing that’s still effective today</title>
+	  <link>http://localhost:4000/blog/Traditional-marketing-that-s-still-effective-today/</link>
+	 </image>
+      <item>
+        <title>Traditional marketing that’s still effective today</title>
+        <description>&lt;h1 id=&quot;traditional-marketing-thats-still-effective-today&quot;&gt;Traditional marketing that’s still effective today&lt;/h1&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Traditional-marketing-that-s-still-effective-today/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Traditional-marketing-that-s-still-effective-today/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Top 5 domain name providers</title>
+	  <link>http://localhost:4000/blog/Top-5-Domain-Name-Providers/</link>
+	 </image>
+      <item>
+        <title>Top 5 domain name providers</title>
+        <description>&lt;h1 id=&quot;top-5-domain-name-providers&quot;&gt;Top 5 Domain Name Providers&lt;/h1&gt;
+&lt;p&gt;There are many domain providers and they all technically offer the same service. From my experience of using their product and service, here is my top five:-&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Namecheap&lt;/li&gt;
+  &lt;li&gt;TsoHost&lt;/li&gt;
+  &lt;li&gt;123-Reg&lt;/li&gt;
+  &lt;li&gt;Go-daddy&lt;/li&gt;
+  &lt;li&gt;1and1&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When it comes to domains, all businesses are roughly the same.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Top-5-Domain-Name-Providers/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Top-5-Domain-Name-Providers/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Todo today</title>
+	  <link>http://localhost:4000/blog/Todo-today/</link>
+	 </image>
+      <item>
+        <title>Todo today</title>
+        <description>&lt;h1 id=&quot;todo-today&quot;&gt;Todo today&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;Ring Duncan and bibs to sort meetings&lt;/li&gt;
+  &lt;li&gt;Message Jordan and invoice&lt;/li&gt;
+  &lt;li&gt;Finish imsofunky layout&lt;/li&gt;
+  &lt;li&gt;Upload blog contents to AndyCymru and imsofunky&lt;/li&gt;
+  &lt;li&gt;Write new blog posts&lt;/li&gt;
+  &lt;li&gt;Create basic web templates&lt;/li&gt;
+  &lt;li&gt;Create isf advert promo graphics for social&lt;/li&gt;
+  &lt;li&gt;Upload portfolio on social media&lt;/li&gt;
+  &lt;li&gt;Change fb name back to imsofunky&lt;/li&gt;
+  &lt;li&gt;Plan and execute future posts on buffer&lt;/li&gt;
+  &lt;li&gt;Comment on people’s stuff on Facebook.&lt;/li&gt;
+  &lt;li&gt;Finish catch logo.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Job pack form.
+Enter budget at the top, then a set of drop downs to select a job.&lt;/p&gt;
+
+&lt;p&gt;With a job selected, it knows the hours so it will divide the budget into hours and provide a price next to the drop down. If it’s lower than minimum wage, it will show a red flag and block the submit button and make put a statement up saying it’s under minimum so it’s illegal.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Todo-today/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Todo-today/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Running a business with a disability</title>
+	  <link>http://localhost:4000/blog/Running-a-business-with-a-disability/</link>
+	 </image>
+      <item>
+        <title>Running a business with a disability</title>
+        <description>&lt;h1 id=&quot;running-a-business-with-a-disability&quot;&gt;Running a business with a disability&lt;/h1&gt;
+&lt;p&gt;Throughout my life I have never saw my disability as a negative, I just sometimes have to do things differently. In business I have found having a disability can improve other skills in the work place. If you are thinking of starting a business, going freelance or looking to be the next big entrepreneur, here is a small guide to get you started.&lt;/p&gt;
+
+&lt;h2 id=&quot;be-upfront-with-your-clients&quot;&gt;Be upfront with your clients&lt;/h2&gt;
+&lt;p&gt;You don’t need to state your disability in your email footer or answer machine message. But if you struggle with a form of communication or access, be straight up and offer a solution that suits you. People are accommodating and often are willing to help as long as they know how they can help you.&lt;/p&gt;
+
+&lt;h2 id=&quot;ability-before-disability&quot;&gt;Ability before disability&lt;/h2&gt;
+&lt;p&gt;If you can do a job/project then your hired regardless of disability. These days with the internet, we can be screened through our talent and work ethic, rather than disability. I’ve had clients that didn’t know I was disabled as we communicated over email and I just concentrated on getting the job done. Don’t think you can’t bid for work because of your disability, it’s all about getting the work done that the client is bothered about.&lt;/p&gt;
+
+&lt;h2 id=&quot;set-your-boundaries&quot;&gt;Set your boundaries&lt;/h2&gt;
+&lt;p&gt;Make your calendar/diary work for you in order of making sure your organise your time properly. Set time for breaks or rest-bite or you can get burnt out quite quickly. Depending on disability your day can often include extra disability related tasks, So it’s important to include that around your work slots. People are hungry for your time, so make sure you get your priorities right first.&lt;/p&gt;
+
+&lt;h2 id=&quot;think-outside-the-box&quot;&gt;Think outside the box&lt;/h2&gt;
+&lt;p&gt;Quite often we are having to re-route and think outside the box with our natural life of living with a disability. Use this skill to your advantage and think of different ways you can find a gap in the market that’s not being done. Either a product or service that will help/aid people or a different marketing technique for promoting your business.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-social-and-network&quot;&gt;Get social and network&lt;/h2&gt;
+&lt;p&gt;No business can sustain without some form of promotion. Social media is perfect for launching and promoting business. Also on Facebook there are many groups you can join with like-minded people, where you can share tips and get advice and guidance. It can really give your business a boost and also help you personally, as running a business on your own can get very lonely fast.&lt;/p&gt;
+
+&lt;h2 id=&quot;round-up&quot;&gt;Round-up&lt;/h2&gt;
+&lt;p&gt;There are more disabled entrepreneurs and freelancers than the media is allowed to show, so don’t feel alone. Enjoy it, the ups will certainly outweigh the down. Keep going, you got this!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Running-a-business-with-a-disability/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Running-a-business-with-a-disability/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Promoting through social media</title>
+	  <link>http://localhost:4000/blog/Promoting-through-social-media/</link>
+	 </image>
+      <item>
+        <title>Promoting through social media</title>
+        <description>&lt;h1 id=&quot;promoting-through-social-media&quot;&gt;Promoting through social media&lt;/h1&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Promoting-through-social-media/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Promoting-through-social-media/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Promoting outside of the box</title>
+	  <link>http://localhost:4000/blog/Promoting-outside-of-the-box/</link>
+	 </image>
+      <item>
+        <title>Promoting outside of the box</title>
+        <description>&lt;h1 id=&quot;promoting-outside-of-the-box&quot;&gt;Promoting outside of the box&lt;/h1&gt;
+&lt;p&gt;Marketing and promotion has evolved over the years, as people are connecting more online, while traditional media is declining. It is important to keep on top of your marketing and work out ways to slip through the mundane and connect with your audience.&lt;/p&gt;
+
+&lt;p&gt;Your marketing strategy depends on what your project is and what it can offer, but there are a few common points that all businesses still need to follow.&lt;/p&gt;
+
+&lt;p&gt;As regular marketing streams have become very saturated, it is important to also think outside the box to target your audience.&lt;/p&gt;
+
+&lt;h2 id=&quot;analyse-you-audience&quot;&gt;Analyse you audience&lt;/h2&gt;
+&lt;p&gt;What is your target audience? What do they do? Where do they go? How would they pursue what you offer?&lt;/p&gt;
+
+&lt;p&gt;It’s important to find and work out as much as you can about your audience and how they tick, so you can plan how to market your project to them.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-budget&quot;&gt;Your budget&lt;/h2&gt;
+&lt;p&gt;Once you know what your budget is, it’s time to plan which strategy will work within your budget. Regardless of marketing strategy it’s definitely wise to create social media accounts. This will help to expand your exposure. Plus social media accounts are free! Think which social media your audience will be using and setup them first, then expand and create more as your content grows.&lt;/p&gt;
+
+&lt;p&gt;It’s important to be clever with your promoting and market and try to hit as many people as possible with the least amount of time and money spent.&lt;/p&gt;
+
+&lt;h2 id=&quot;clever-control&quot;&gt;Clever Control&lt;/h2&gt;
+&lt;p&gt;Once you know your audience and budget you can then plan your strategy of who your going to market towards.&lt;/p&gt;
+
+&lt;p&gt;If you are a brick and mortar shop selling products why don’t you specifically put posters and ads where people need to sit and wait I.e doctors surgeries, barbers/hair dressers etc.. places where people wait and deliberately read the walls. If your an online product then think about paying to put your banner on a popular website related to your project, or get a popular website to write a review on your project. These strategy’s are common, so it’s important to be cleaver and think of something different but still related to your project.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Promoting-outside-of-the-box/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Promoting-outside-of-the-box/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Make your website accessible!</title>
+	  <link>http://localhost:4000/blog/Make-your-website-accessible!/</link>
+	 </image>
+      <item>
+        <title>Make your website accessible!</title>
+        <description>&lt;h1 id=&quot;make-your-website-accessible&quot;&gt;Make your website accessible!&lt;/h1&gt;
+&lt;p&gt;Most of the internet still doesn’t have accessible websites. When I say accessible, I mean a human with a form of disability cannot use your website.&lt;/p&gt;
+
+&lt;p&gt;We are in the technical era and as we get older we will start to become impaired and naturally start to need aids to use technology, it’s natural.&lt;/p&gt;
+
+&lt;p&gt;What are you going to do when you lose your eye sight and all the websites you have visited most of your life suddenly are unable to use because a designer cannot be arsed implementing accessibility.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Make-your-website-accessible!/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Make-your-website-accessible!/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/blog.jpg</url>
+	  <title>I Need A Website!</title>
+	  <link>http://localhost:4000/blog/website/I-need-a-website!/</link>
+	 </image>
+      <item>
+        <title>I Need A Website!</title>
+        <description>&lt;h1 id=&quot;i-need-a-website&quot;&gt;I need a website!&lt;/h1&gt;
+&lt;p&gt;If you have ever heard yourself scream ‘I need a website!’ or you have been getting sleepless nights and worried about how to go about setting up an online kingdom. Well let me break it down for you, and you will be online before you know it!&lt;/p&gt;
+
+&lt;h2 id=&quot;the-name&quot;&gt;The name&lt;/h2&gt;
+&lt;p&gt;The first thing you need to do is sit down and work out what you want your website to be called. It can be anything that’s relating in what your website is about. Either your name, business name, project related, or anything.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://andy.cymru/coosing-the-right-domain-name&quot;&gt;Choosing the right domain name&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have a few ideas on your name, it’s now time to purchase your domain. This is your unique part of the internet that will make it easy for everyone to find you. There are many variations either a .com, .net, .org etc… to be honest it doesn’t really matter. As .com used to be king for years but with so many of them already been bought, people have had to be creative in their choices.&lt;/p&gt;
+
+&lt;p&gt;Once you have found a domain name that is available to purchase, it is now time to find a domain vendor to purchase. Company’s charge different prices for the exact same product, so it might be worth doing a search to find the best price. (Anything over £10 for just a domain name is too much, and they are ripping you off)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://andy.cymru/blog/top-10-domains&quot;&gt;My Top 5 domain name providers!&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hosting-your-website&quot;&gt;Hosting your website&lt;/h2&gt;
+&lt;p&gt;Once you have your domain name. It’s now time to setup a place to store your website files for your domain name to display. This is called ‘web hosting’. This is separate from your domain in that you can have your hosting with the same or a separate company. Like domain vendors, their are also many company’s providing a ‘website hosting’ service, they also range in various prices.&lt;/p&gt;
+
+&lt;p&gt;Your choice of web host depends on your project. This is outlined more deeply in the following post &lt;a href=&quot;http://andy.cymru/webb&quot;&gt;Finding the right web host provider for you&lt;/a&gt;
+Where we break down what type of service suits.&lt;/p&gt;
+
+&lt;h2 id=&quot;sprinkle-your-world-with-beauty&quot;&gt;Sprinkle your world with beauty&lt;/h2&gt;
+&lt;p&gt;Once you have your domain name and web hosting setup, it’s time to build your website. This can either be done by yourself with the aid of &lt;a href=&quot;http://andy.cymru/templates/&quot;&gt;templates&lt;/a&gt;, video tutorials and guides etc.. or you can approach a professional designer and get your website designed and built professionally. This depends on your skill level, time and budget for your website.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://andy.cymru/des&quot;&gt;Choosing the right designer and strategy for my website&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Part of the design process is adding the right content for the audience your website is aimed at. Content is key, so it is important that all your text, spelling and grammar is perfect, images are correct and sized properly, your logos have been designed and applied properly, and everything has been carefully analysed to deliver the best your website can be. It is also important to keep your website updated wether it’s new blog posts, amended services, about us pages etc… nobody wants to visit a website with the information that is seven years old.&lt;/p&gt;
+
+&lt;h2 id=&quot;spread-the-word&quot;&gt;Spread the word&lt;/h2&gt;
+&lt;p&gt;Once you have your brand new sparkling website, it’s time to shout out loud about it so everyone knows about it. These days we have the beauty of utilising social media, which can really help in online promotion. You have the choice of setting up new accounts with a similar name to your website, or utilising your current profiles with your website promotions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://andy.cymru&quot;&gt;Promoting through social media&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Online promotion is great and very good for quick promos and limited budgets. It’s also important not to forget certain traditional ways of promotion. Posters, banners, adverts in local newspapers are still effective ways of spreading the word depending on your website and project. It’s important to look at your potential returns before you invest as it can be quite costly when your just starting out.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://andy.cymru/marketing&quot;&gt;Traditional marketing that’s still effective today&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Marketing and promotional advertising as all about getting your project or brand in front of people, then creating a response. So it can sometimes need thinking out of the box in a way of getting people to notice you. Try working out where the audience that would be interested in your project tend to hang around, either online or offline. Do the frequent on certain websites or social media’s? or do they wait in certain establishments? How can you get them to see or actively notice your project or brand.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://andy.cymru/promoting-out-of-the-box&quot;&gt;Promoting out of the box&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The process of building your online kingdom is very exciting, yet it can take time. Generally it won’t have over a million hits on launch day, things take time so it’s important to be patient. As long as you follow these tips and tricks then I’m sure you will have a successful project and will go a long way. Good luck!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/website/I-need-a-website!/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/website/I-need-a-website!/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Finding the right web host provider for you</title>
+	  <link>http://localhost:4000/blog/Finding-the-right-web-host-provider-for-you/</link>
+	 </image>
+      <item>
+        <title>Finding the right web host provider for you</title>
+        <description>&lt;h1 id=&quot;finding-the-right-web-host-provider-for-you&quot;&gt;Finding the right web host provider for you&lt;/h1&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Finding-the-right-web-host-provider-for-you/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Finding-the-right-web-host-provider-for-you/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Choosing the right domain name</title>
+	  <link>http://localhost:4000/blog/Choosing-the-right-domain-name/</link>
+	 </image>
+      <item>
+        <title>Choosing the right domain name</title>
+        <description>&lt;h1 id=&quot;choosing-the-right-domain-name&quot;&gt;Choosing the right domain name&lt;/h1&gt;
+&lt;p&gt;Choosing a good name for your business can come to you quite quickly or it can be one of the most challenging parts of starting a project. Added to that task, you then need to hope that the domain is available to purchase.&lt;/p&gt;
+
+&lt;p&gt;If you are like me and struggle to think of something instantly, then its worth writing a list of potential names that you like and different variations of the name. There is no exact rule on length of domain name but previous study’s say that the shorter the name, the easier it is for visitors to remember. Although these days with social media and search engines like google, website traffic comes from people clicking links rather than physically typing in web addresses. So its your option.&lt;/p&gt;
+
+&lt;p&gt;Once you have your names, its worth visiting a domain vendor and type your names into their search box and find one that is available.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Choosing-the-right-domain-name/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Choosing-the-right-domain-name/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/</url>
+	  <title>Choosing the right designer and strategy for my website</title>
+	  <link>http://localhost:4000/blog/Choosing-the-right-designer-and-strategy-for-my-website/</link>
+	 </image>
+      <item>
+        <title>Choosing the right designer and strategy for my website</title>
+        <description>&lt;h1 id=&quot;choosing-the-right-designer-and-strategy-for-my-website&quot;&gt;Choosing the right designer and strategy for my website&lt;/h1&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/Choosing-the-right-designer-and-strategy-for-my-website/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/Choosing-the-right-designer-and-strategy-for-my-website/</guid>
+      </item>
+    
+     <image>
+	  <url>http://localhost:4000/assets/img/blog.jpg</url>
+	  <title>Building A Business</title>
+	  <link>http://localhost:4000/blog/business/Building-A-Business/</link>
+	 </image>
+      <item>
+        <title>Building A Business</title>
+        <description>&lt;h1 id=&quot;building-a-business&quot;&gt;Building A Business&lt;/h1&gt;
+&lt;h2 id=&quot;planning&quot;&gt;Planning&lt;/h2&gt;
+&lt;p&gt;Need to work out what you want to do, who it’s for and how your going to do it.
+What materials are needed, who your ideal customer is, how your going to sell your service/product.&lt;/p&gt;
+
+&lt;h2 id=&quot;competition&quot;&gt;Competition&lt;/h2&gt;
+&lt;p&gt;What others are doing in the market and how to beat them!&lt;/p&gt;
+
+&lt;h2 id=&quot;finance&quot;&gt;Finance&lt;/h2&gt;
+&lt;p&gt;Pricing, costs etc….&lt;/p&gt;
+
+&lt;h2 id=&quot;marketing&quot;&gt;Marketing&lt;/h2&gt;
+&lt;p&gt;Advertising, social media, word of mouth, peer selling, etc..&lt;/p&gt;
+
+&lt;p&gt;Plan, Tell, Sell!&lt;/p&gt;
+
+&lt;p&gt;Each section has an ‘action list’ which is a todo list from that section people must do to move on and achieve their goal.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 May 2019 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/blog/business/Building-A-Business/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/business/Building-A-Business/</guid>
+      </item>
+    
+  </channel>
+</rss>

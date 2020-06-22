@@ -1,0 +1,30 @@
+---
+layout: page
+title: Blog Articles
+---
+<section>
+	<article class="blog-page">
+		<h2>{{page.title}}</h2>
+		
+			<ul>
+				{% for post in site.posts %}
+					<li><a href="{{ site.url }}{{ post.url }}">
+						<img src="{{ site.url }}/content-blog/{{ post.image }}" title="{{ post.title }}"></a>
+						<div class="blog-content">
+							<h2>{{ post.title  | truncate: 90 }}</h2>
+							<p>{{ post.excerpt }}</p>
+							<div class="p-btn"><a href="{{ BASE_PATH }}{{ site.url }}{{ post.url }}">Read More</a></div>
+						</div>
+					</li>
+				{% endfor %}
+			<div class="clear"></div>
+            </ul>
+	</article>
+	
+	<article>
+		<div class="pagination" style="display: none;">
+			<a href="#"><< Left</a>
+			<a href="#">Right >></a>
+		</div>
+	</article>
+</section>

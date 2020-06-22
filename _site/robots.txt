@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /web
+Allow: /graphic
+Allow: /social
+Allow: /blog
+Allow: /contact
+Allow: /privacy
+Allow: /index
+Disallow: /archive
+Disallow: /tags
+Disallow: /thanks
+Disallow: /timesheet
+
+Sitemap: http://www.imsofunky.com/sitemap/
