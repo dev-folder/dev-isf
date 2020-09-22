@@ -19,90 +19,66 @@
 	<meta name="twitter:title" content="{{site.title}}" />
 	<meta name="twitter:description" content="{{ site.description }}" />
 	<meta name="twitter:image" content="{{ site.url }}images/{{site.image}}" />
-	
 	<meta name="keywords" content="{{site.keywords}}" />
-    <!-- <meta http-equiv="refresh" content="10; url=/"> -->
+<!-- <meta http-equiv="refresh" content="10; url=/"> -->
     <meta property="fb:app_id" content="{{site.url}}/" >
     <link rel="canonical" href="{{site.url}}">
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png">
     <link href='{{ site.url }}feed.xml' rel='alternate' type='application/atom+xml'>
-   
-	<title>ImSoFunky</title>
-	<link href="https://fonts.googleapis.com/css?family=Croissant+One" rel="stylesheet">
-	<link rel="stylesheet" href="{{site.url}}/assets/style.css">
-	<link rel="stylesheet" href="{{site.url}}/assets/style-desktop.css">
-	<link rel="stylesheet" href="{{site.url}}/assets/style-mobile.css">
+    <title>ImSoFunky {{site.description}}</title>
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Lato:wght@100;300;400;900&display=swap|Muli:wght@300&display=swap' rel='stylesheet' type='text/css'>
 </head>
-
 <body>
-	
-	{% if page.url == "/" %}
-	<header>
-		<div class="header-bar">
-			<div class="header-logo"><a href="{{site.url}}"><img src="{{site.url}}/assets/img/logo.png"></a></div>
-			<div class="header-menu">
-				<button id="roundButton">
-					<div class="bar1"></div>
-					<div class="bar2"></div>
-					<div class="bar3"></div>
-				</button>
-				<nav id="Slidenav">
-					<ul>
-						<li><a href="{{site.url}}">Home</a></li>
-						<li><a href="{{site.url}}web/">Web</a></li>
-						<li><a href="{{site.url}}graphics/">Graphic</a></li>
-						<li><a href="{{site.url}}social/">Social</a></li>
-						<li><a href="{{site.url}}blog/">Blog</a></li>
-					</ul>
-					
-					<div class="social2">
-						{% include social.html %}
-					</div>
-				</nav>
-			</div>
-			
-			
-			<div class="header-social">
-				<div class="social">{% include social.html %}</div>
-			<div class="clear"></div>
-		</div><!-- end of menu-bar -->
-		
-		<h1>ImSoFunky.</h1>
-		<p>Creating high quality designs for your branding and online marketing.</p>
-	</header>
-		
-	{% else %}
-		
-	<header class="header-page">
-		<div class="header-bar">
-			<div class="header-logo"><a href="/index.html"><img src="{{site.url}}/assets/img/logo.png"></a></div>
-			<div class="header-menu">
-				<button id="roundButton">
-					<div class="bar1"></div>
-					<div class="bar2"></div>
-					<div class="bar3"></div>
-				</button>
-				<nav id="Slidenav">
-					<ul>
-						<li><a href="{{site.url}}">Home</a></li>
-						<li><a href="{{site.url}}web/">Web</a></li>
-						<li><a href="{{site.url}}graphics/">Graphic</a></li>
-						<li><a href="{{site.url}}social/">Social</a></li>
-						<li><a href="{{site.url}}blog/">Blog</a></li>
-					</ul>
-					
-					<div class="social2">
-						{% include social.html %}
-					</div>
-				</nav>
-			</div>
-			
-			
-			<div class="header-social">
-				{% include social.html %}
-			</div>
-			<div class="clear"></div>
-		</div><!-- end of menu-bar -->
-	</header>
-		
-	{% endif %}
+
+    {% if page.url == "/" %}
+    
+    <header>
+        <div class="header-main">
+            <div class="logo"><a href="{{site.url}}"><img src="{{site.url}}/assets/img/main/logo.png"></a></div>
+            <div class="nav-box">
+                <button id="roundButton">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            </div>
+            <nav id="Slidenav">
+                <ul>
+                    <li><a href="{{site.url}}">Home</a></li>
+                    <li><a href="{{site.url}}/portfolio/">Portfolio</a></li>
+                    <li><a href="{{site.url}}/blog/">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="lead-text">
+                <h1><span>{{site.name}}</span></br>Creating high quality designs for your branding and online marketing.</h1>
+            </div>
+        </div>
+    </header>
+
+    {% else %}
+    
+    <header>
+        <div class="header-page">
+            <div class="logo"><a href="{{site.url}}"><img src="{{site.url}}/assets/img/main/logo.png"></a></div>
+            <div class="nav-box">
+                <button id="roundButton">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </button>
+            </div>
+            <nav id="Slidenav">
+                <ul>
+                    <li><a href="{{site.url}}">Home</a></li>
+                    <li><a href="{{site.url}}/portfolio/">Portfolio</a></li>
+                    <li><a href="{{site.url}}/blog/">Blog</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    {% endif %}
+
+    <main>

@@ -1,0 +1,44 @@
+---
+layout: page
+title: Blog
+---
+
+<div class="archive-page">
+	<h2>{{page.title}}</h2>
+	
+    {% for post in paginator.posts limit:4 %}
+		<article>
+        	<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/blog/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}">
+			<h3>{{ post.title }}</h3></a>
+			<div class="category">{{post.categories}} | <span>{{ post.date | date: "%d.%m.%Y" }}</span></div>
+			<p>{{ post.excerpt | truncate: 150 }}</p>
+			<a href="{{ site.url }}{{ post.url }}" class="read-article">Read Article</a>
+			<div class="author"> <span><img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}</span> </div>
+			<div class="read-time">
+			{% assign words = post.content | number_of_words %}
+				{% if words < 360 %}
+					1 min read
+				{% else %}
+					{{ words | divided_by:180 }} mins read
+			{% endif %}</div>
+        </article>
+	{% endfor %}
+
+	<!-- Pagination links -->
+	<div class="pagination">
+		{% if paginator.previous_page %}
+			<a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+		{% else %}
+			<span class="previous">Previous</span>
+		{% endif %}
+		<span class="page_number ">
+		Page: {{ paginator.page }} of {{ paginator.total_pages }}
+		</span>
+		{% if paginator.next_page %}
+			<a href="{{ paginator.next_page_path }}" class="next">Next</a>
+		{% else %}
+			<span class="next ">Next</span>
+		{% endif %}
+	</div>
+
+</div>

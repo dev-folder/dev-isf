@@ -1,0 +1,28 @@
+---
+layout: page
+title: Portfolio
+---
+<h1>{{page.title}}</h1>
+
+
+<div class="folio-page">
+
+    {% for item in site.portfolio %}
+  
+    <a href="{{item.url}}">
+  
+      <div class="folio-info">
+          <h2>{{ item.client }}</h2>
+          <p>{{item.category | join: ", "}}</p>
+        </div>
+  
+        <img src="{{site.url}}/assets/img/folio/home-gallery/1sq.jpg"" alt="">
+  
+    </a>
+  
+    {% endfor %}
+
+
+</div>
+
+

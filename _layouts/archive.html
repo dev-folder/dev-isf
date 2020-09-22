@@ -1,0 +1,29 @@
+---
+layout: default
+title: Archive
+---
+
+<!-- Begin List Posts
+================================================== -->
+
+<h1>Archive of posts with <span>{{ page.type }} '{{ page.title }}'</span></h1>
+
+<div class="archives-page">
+    {% for post in page.posts %}
+        <article>
+            <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/blog/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}">
+            <h3>{{ post.title }}</h3></a>
+            <div class="category">{{post.categories}} | <span>{{ post.date | date: "%d.%m.%Y" }}</span></div>
+            <p>{{ post.excerpt | truncate: 150 }}</p>
+            <a href="{{ site.url }}{{ post.url }}" class="read-article">Read Article</a>
+            <div class="author"> <span><img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}</span> </div>
+            <div class="read-time">
+            {% assign words = post.content | number_of_words %}
+                {% if words < 360 %}
+                    1 min read
+                {% else %}
+                    {{ words | divided_by:180 }} mins read
+            {% endif %}</div>
+        </article>
+    {% endfor %}
+</div>

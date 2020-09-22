@@ -4,7 +4,7 @@ date: Thursday 23 may 2019
 author: Andy Brown
 title: I Need A Website!
 excerpt: Have you ever hit a brick wall with the thought of needing and starting a website from zero? well here is a little guide for you to get your digital project off the ground.
-category: Website
+categories: [websites, design]
 section: start-up
 image: blog.jpg
 image-alt: I Need A Website!

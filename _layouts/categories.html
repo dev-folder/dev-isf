@@ -1,0 +1,42 @@
+---
+title: "Categories"
+layout: default
+permalink: "/categories.html"
+---
+
+{% for category in site.categories %}
+
+<div class="archive-page">
+
+<h2 class="mt-5 mb-neg-30" id="{{ category[0] | replace: " ","-" }}">
+    <span>{{ category[0] }}</span>
+</h2>   
+
+{% assign pages_list = category[1] %}
+    {% for post in pages_list %}
+        {% if post.title != null %}
+            {% if group == null or group == post.group %}
+
+            <article>
+                <a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/blog/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}">
+                <h3>{{ post.title }}</h3></a>
+                <div class="category">{{post.categories}} | <span>{{ post.date | date: "%d.%m.%Y" }}</span></div>
+                <p>{{ post.excerpt | truncate: 150 }}</p>
+                <a href="{{ site.url }}{{ post.url }}" class="read-article">Read Article</a>
+                <div class="author"> <span><img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}</span> </div>
+                <div class="read-time">
+                {% assign words = post.content | number_of_words %}
+                    {% if words < 360 %}
+                        1 min read
+                    {% else %}
+                        {{ words | divided_by:180 }} mins read
+                {% endif %}</div>
+            </article>
+
+            {% endif %}
+        {% endif %}
+    {% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}
+</div>
+{% endfor %}

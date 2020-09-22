@@ -1,30 +1,27 @@
 ---
 layout: page
-title: Blog Articles
+title: Blog
 ---
-<section>
-	<article class="blog-page">
-		<h2>{{page.title}}</h2>
-		
-			<ul>
-				{% for post in site.posts %}
-					<li><a href="{{ site.url }}{{ post.url }}">
-						<img src="{{ site.url }}/content-blog/{{ post.image }}" title="{{ post.title }}"></a>
-						<div class="blog-content">
-							<h2>{{ post.title  | truncate: 90 }}</h2>
-							<p>{{ post.excerpt }}</p>
-							<div class="p-btn"><a href="{{ BASE_PATH }}{{ site.url }}{{ post.url }}">Read More</a></div>
-						</div>
-					</li>
-				{% endfor %}
-			<div class="clear"></div>
-            </ul>
-	</article>
+
+<div class="archive-page">
+	<h2>{{page.title}}</h2>
 	
-	<article>
-		<div class="pagination" style="display: none;">
-			<a href="#"><< Left</a>
-			<a href="#">Right >></a>
-		</div>
-	</article>
-</section>
+    {% for post in site.posts %}
+		<article>
+        	<a href="{{ site.url }}{{ post.url }}"><img src="{{ site.url }}/assets/img/blog/{{ post.image }}" title="{{ post.title }}" alt="{{post.image-alt}}">
+			<h3>{{ post.title }}</h3></a>
+			<div class="category">{{post.categories}} | <span>{{ post.date | date: "%d.%m.%Y" }}</span></div>
+			<p>{{ post.excerpt | truncate: 150 }}</p>
+			<a href="{{ site.url }}{{ post.url }}" class="read-article">Read Article</a>
+			<div class="author"> <span><img src="{{ site.url }}/assets/img/authors/{{post.authorimage}}" alt="{{post.author}}'s Avatar Image'">{{post.author}}</span> </div>
+			<div class="read-time">
+			{% assign words = post.content | number_of_words %}
+				{% if words < 360 %}
+					1 min read
+				{% else %}
+					{{ words | divided_by:180 }} mins read
+			{% endif %}</div>
+        </article>
+	{% endfor %}
+
+</div>
