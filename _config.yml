@@ -3,7 +3,7 @@ author: Andy Brown
 title: ImSoFunky
 description: 'ImSoFunky is a web design company specialising in providing services for the music industry.'
 markdown: kramdown
-url: 'http://localhost:4000/'
+url: 'https://dev-folder.github.io/dev-isf'
 baseurl: "https://dev-folder.github.io/dev-isf"
 permalink: /blog/:categories/:title/
 exclude: ['README.md']
