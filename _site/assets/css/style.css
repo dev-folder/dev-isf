@@ -45,20 +45,24 @@ header .logo img{width:100%; height:auto;}
 /* Homepage graphics section */
 .graphics{display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 0px; grid-row-gap: 0px; margin:0; padding:0; align-items: center; justify-items: center; }
 .graphics div{margin:0; padding:0; }
-.graphics h2{width:90%; margin:0 auto;}
+.graphics .g-img{margin:0; padding:0; width: 100%; height: 100%; object-fit: cover;}
+.graphics h2{width:85%; margin:0 auto; color:#ff00d8; font-size:1.1em; line-height:1.6em; text-transform: capitalize;}
+.graphics p {grid-column:1/3; grid-row: 3; width:90%; margin:10% auto 0 auto; text-align:center; font-size: 1.4em; line-height:1.5em; font-weight:bold; color:#000;}
 .graphics img{width:100%; height:auto; border:0; margin:0; padding:0;}
-.graphics .button{grid-column:1/3; grid-row: 3; text-align: center; padding:5% 0;}
+.graphics .button{grid-column:1/3; grid-row: 4; text-align: center; padding:5% 0;}
+.graphics .button a{background-color: transparent; color: #ff00d8;; padding: 0.5em 0.8em; margin:5% 0 !important; border-radius: 6pt; border:2pt solid #ff00d8;; text-transform: uppercase; letter-spacing: 0.5pt; font-weight:normal; font-size:1.5em; text-decoration: none; display:inline-block;}
+.graphics .button a:hover{background-color: #ff00d8;; color:#fff;}
 
 /* Homepage content section */
-.folio{width: 100%; text-align: center; padding:16% 0; background:rgb(235, 235, 235); }
+.folio{width: 100%; text-align: center; padding:16% 0; background:#0060ff; }
 .folio-gallery{display: grid; grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(1, 1fr); grid-column-gap: 0px; grid-row-gap: 0px;}
 .folio-gallery img{width:100%; height:auto;}
 
 .folio h2{margin:5% 0 2% 0; background:#0060ff; width:auto; display:inline-block; padding:0.5em 0.8em; text-align:center; color: #fff; width:90%; text-transform:capitalize;}
-.folio p{width:90%; margin:10% auto 0 auto; text-align:center; font-size: 1.6em; line-height:1.7em; font-weight:bold;}
+.folio p{width:90%; margin:10% auto 0 auto; text-align:center; font-size: 1.6em; line-height:1.7em; font-weight:bold; color: #fff;}
 .folio img{ width:85%; height:auto; margin:10% auto 0 auto; }
-.button a{background-color: transparent; color: #000; padding: 0.5em 0.8em; margin:5% 0 !important; border-radius: 6pt; border:2pt solid #000; text-transform: uppercase; letter-spacing: 0.5pt; font-weight:normal; font-size:1.5em; text-decoration: none; display:inline-block;}
-.button a:hover{background-color: #000; color:#fff;}
+.button a{background-color: transparent; color: #fff; padding: 0.5em 0.8em; margin:5% 0 !important; border-radius: 6pt; border:2pt solid #fff; text-transform: uppercase; letter-spacing: 0.5pt; font-weight:normal; font-size:1.5em; text-decoration: none; display:inline-block;}
+.button a:hover{background-color: #fff; color:#0060ff;}
 
 .home-blog{text-align: center; width:90%; margin:0 auto; display: grid; grid-template-columns: 1fr; grid-template-rows: 1fr; grid-column-gap: 10px; grid-row-gap: 0px; }
 .home-blog h2{grid-columns:1/2; color:#fff; background:#ff00d8; display:inline-block; padding:0.5em 0.8em; text-align:center;}
@@ -202,12 +206,28 @@ footer img{width: 35px; height: auto; margin: 2% 4%; fill:#fff; filter: invert(1
 
     .lead-text h1{width:60%; margin:0 auto; line-height: 1.6em; font-size:3em; text-transform:capitalize;}
     .lead-text h1 span{width:80%; margin-bottom:2%; line-height: 1.6em; font-size:1.6em; text-transform:capitalize;}
+    
+    .graphics{display: grid; grid-template-columns: 1fr 1fr; grid-column-gap: 0px; grid-row-gap: 0px; margin:0; padding:0; align-items: center; justify-items: center; }
+    .graphics div{margin:0; padding:0;}
+    .graphics .g-img{margin:0; padding:0; width: 100%; height: 100%; object-fit: cover;}
+    .graphics h2{width:90%; margin:0 auto; font-size:2.8em; line-height:1.4em; letter-spacing:-2pt; text-transform: capitalize;}
+    .graphics img{object-fit: contain; border:0; margin:0; padding:0; overflow:hidden; width: 100%; height: 100%; display: block; object-fit: cover }
+
+    .graphics .button{grid-column:1/3; grid-row: 4; text-align: center; padding:5% 0;}
+    .graphics .button a{background-color: transparent; color: #ff00d8;; padding: 0.5em 0.8em; margin:5% 0 !important; border-radius: 6pt; border:2pt solid #ff00d8;; text-transform: uppercase; letter-spacing: 0.5pt; font-weight:normal; font-size:1.5em; text-decoration: none; display:inline-block;}
+    .graphics .button a:hover{background-color: #ff00d8;; color:#fff;}
+
+
+
+
+    .folio{width:100%; margin: 0 auto; padding: 0 20%;}
+
 
     .home-blog{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: auto; grid-column-gap: 20px; grid-row-gap: 0; text-align: center; width:90%; margin:0 auto;}
     .home-blog h2{grid-row:1; grid-column:1/-1; color:#fff; background:#ff00d8; display:inline-block; padding:0.5em 0.8em; text-align:center;}
     .home-blog article{ grid-row-start: 2; width:100%; box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2); margin: 0 auto; border-radius: 9pt; background-color:black; color:#fff;}
     
-    .folio{width:80%; margin: 0 auto;}
+    
 
     article{ width:70%; margin:0 auto; }
     article h1, article h2, article h3,{ text-align: left; }
@@ -242,5 +262,5 @@ footer img{width: 35px; height: auto; margin: 2% 4%; fill:#fff; filter: invert(1
     footer{ background-color: #000; color:#fff; padding:3% 0; text-align:center; font-weight: 100; }
     footer h2{font-size:0.7em; letter-spacing:2pt; margin:0;}
     footer p{padding-top:0; text-align:center; font-weight: 100; font-size:0.8em; }
-    footer img{width: 25px; height: auto; margin: 1% 0.5%; fill:#fff; filter: invert(1); display:inline;}
+    footer img{width: 22px; height: auto; margin: 2% 1%; fill:#fff; filter: invert(1); display:inline;}
  }

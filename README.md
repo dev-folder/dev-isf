@@ -10,3 +10,11 @@ New ImSoFunky site in development.
 * check categories work
 
 * PUBLISH!
+
+
+
+
+Website designer
+graphic designer
+SEO
+Social Media

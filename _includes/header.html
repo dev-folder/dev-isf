@@ -23,9 +23,18 @@
 <!-- <meta http-equiv="refresh" content="10; url=/"> -->
     <meta property="fb:app_id" content="{{site.url}}/" >
     <link rel="canonical" href="{{site.url}}">
-    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/img/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/assets/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.url }}/assets/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.url }}/assets/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.url }}/assets/img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="{{ site.url }}/assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <link href='{{ site.url }}/feed.xml' rel='alternate' type='application/atom+xml'>
-    <title>ImSoFunky {{site.description}}</title>
+    <title>ImSoFunky {{page.description}}</title>
     <link rel="stylesheet" href="{{site.url}}/assets/css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One|Lato:wght@100;300;400;900&display=swap|Muli:wght@300&display=swap' rel='stylesheet' type='text/css'>
 </head>
@@ -52,7 +61,7 @@
             </nav>
 
             <div class="lead-text">
-                <h1><span>{{site.name}}</span></br>Creating high quality designs for your branding and online marketing.</h1>
+                <h1><span>{{site.name}}</span></br>Working together to inspire and create the best websites and graphics for your business.</h1>
             </div>
         </div>
     </header>

@@ -19,7 +19,7 @@
   <div class="content-image">
     <img src="{{ site.url }}/assets/img/blog/{{ page.image }}" title="{{ page.title }}" alt="{{page.image-alt}}">
     <div class="image-description">{{page.image-description}}</div>
-    <div class="image-credit">photo:<a href="http://www.{{page.image-credit-link}}" title="Image owned by {{page.image-credit}}">{{page.image-credit}}</a></div>
+    {% if image-credit-link %}<div class="image-credit">photo:<a href="http://www.{{page.image-credit-link}}" title="Image owned by {{page.image-credit}}">{{page.image-credit}}</a></div> {% endif %}
   </div>
 
 	<content>{{ content }}</content>

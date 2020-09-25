@@ -8,6 +8,7 @@ categories: [websites, design, strategy]
 section: start-up
 image: blog.jpg
 image-alt: Choosing the right designer and strategy for my website
+description: 
 ---
 
 
