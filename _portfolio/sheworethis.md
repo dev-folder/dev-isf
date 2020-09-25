@@ -4,7 +4,8 @@ category: [websites]
 client: She Wore This
 owner: Vicky Clarke & Kyle Johnson
 client-link: SheWoreThis.com
-image: 1.jpg
+image: swt_sq.jpg
+image-square: swt_sq.jpg
 image-alt: Top 5 Domain Name Providers
 image-credit: ImSoFunky
 image-description: This photo is of a female in a wheelchair who has just finished a wheelchair rugby game and is pushing herself across the court with a smile.

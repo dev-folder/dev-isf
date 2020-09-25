@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     
     <url>
-        <loc>http://localhost:4000/blog/lifestyle/websites/Top-5-Domain-Name-Providers/</loc>
+        <loc>http://localhost:4000/blog/websites/Top-5-Domain-Name-Providers/</loc>
     </url>
     
     <url>
@@ -91,14 +91,6 @@
 			
 			<url>
 				<loc>http://localhost:4000/category/strategy/</loc>
-			</url>
-			
-		
-    
-		
-			
-			<url>
-				<loc>http://localhost:4000/category/lifestyle/</loc>
 			</url>
 			
 		
