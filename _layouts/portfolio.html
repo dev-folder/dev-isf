@@ -13,10 +13,23 @@
     {{ content }}
 
 
+    <div class="page-folio-gallery">
+        {% if page.image-1 %}<img src="{{site.url}}/assets/img/folio/{{page.image-1}}" alt="">{% endif %}
+        {% if page.image-2 %}<img src="{{site.url}}/assets/img/folio/{{page.image-2}}" alt="">{% endif %}
+        {% if page.image-3 %}<img src="{{site.url}}/assets/img/folio/{{page.image-3}}" alt="">{% endif %}
+        {% if page.image-4 %}<img src="{{site.url}}/assets/img/folio/{{page.image-4}}" alt="">{% endif %}
+        {% if page.image-5 %}<img src="{{site.url}}/assets/img/folio/{{page.image-5}}" alt="">{% endif %}
+        {% if page.image-6 %}<img src="{{site.url}}/assets/img/folio/{{page.image-6}}" alt="">{% endif %}
+        {% if page.image-7 %}<img src="{{site.url}}/assets/img/folio/{{page.image-7}}" alt="">{% endif %}
+        {% if page.image-8 %}<img src="{{site.url}}/assets/img/folio/{{page.image-8}}" alt="">{% endif %}
+        {% if page.image-9 %}<img src="{{site.url}}/assets/img/folio/{{page.image-9}}" alt="">{% endif %}
+        {% if page.image-10 %}<img src="{{site.url}}/assets/img/folio/{{page.image-10}}" alt="">{% endif %}
+    </div>
+
     <div class="contact-me">
         <h3>Get In Contact</h3>
-        <a href="tel:+4407703049609">Give Me A Call</a> | 
-        <a href="https://tawk.to/chat/5f654adef0e7167d0011bc62/default">Live chat with me</a> | 
+        <a href="tel:+4407703049609">Give Me A Call</a> | <!--
+        <a href="https://tawk.to/chat/5f654adef0e7167d0011bc62/default">Live chat with me</a> | -->
         <a href="mailto:andy@imsofunky.com">Shoot me an email</a> </br>
         <!-- <a href="{{site.url}}/assets/files/credentials_portfolio.pdf">Download Full Credentials</a> -->
     </div>

@@ -6,7 +6,7 @@ html{scroll-behavior: smooth;}
 h1, h2, h3, h4, h5, h6{ font-weight: normal; text-transform: uppercase; font-family: 'Fjalla One', sans-serif; text-align: center; margin:5% 0;}
 
 /* p, p {font-family: 'Lato', sans-serif; font-weight: 300; color:#3D3935; }*/
-p, p a{ font-family: Muli, sans-serif; font-size: 1.1em; font-weight: 300; line-height: 1.875;} 
+p, p a{ font-family: Muli, sans-serif; font-size: 1.1em; font-weight: 300; line-height: 1.875; margin:0 0 3% 0;} 
 
 button{background-color: transparent; color: #fff; padding: 0.5em 0.8em; border-radius: 3pt; border:1pt solid #fff; text-transform: uppercase; letter-spacing: 0.5pt; text-align:center; font-size:0.8em; }
 button:hover{background-color: #ff00d8; border:1pt solid #ff00d8; color: inherit; cursor: pointer; } 
@@ -15,12 +15,11 @@ button:hover{background-color: #ff00d8; border:1pt solid #ff00d8; color: inherit
 .blue{color: #0060ff;}
 .purple{color: #8a00e6;}
 
-
 /*-------------- Site CODE --------------*/
 
 .header-main{background: #ff00d8; background: -moz-linear-gradient(top, #ff00d8 0%, #0060ff 100%); background: -webkit-linear-gradient(top, #ff00d8 0%,#0060ff 100%); background: linear-gradient(to bottom, #ff00d8 0%,#0060ff 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff00d8', endColorstr='#0060ff',GradientType=0 );background-size: cover; background-repeat: no-repeat; height: 100vh; width: 100%; padding:0; color: #fff; position: relative; display: grid; grid-template-columns: 1fr 20%; grid-template-rows: 15% 1fr; align-items: center; justify-items: center;}
 
-.header-page{background: #d302b4; height: auto; width: 100%; padding:0; color: #fff; position: relative; display: grid; grid-template-columns: 1fr 10%; vertical-align: middle; align-items: center; justify-items: center;}
+.header-page{background: #d302b4; height: auto; width: 100%; padding:0; color: #fff; position: relative; display: grid; grid-template-columns: 1fr 13%; vertical-align: middle; align-items: center; justify-items: center;}
 .header-page #roundButton{margin:10% 0 !important; vertical-align: middle;}
 .header-page .logo{width:100px; margin:3% 4%; padding:0; display: inline-block; align-items: start; justify-items: center;}
 
@@ -96,7 +95,7 @@ article img{ width:100%; height:auto; margin: 5% 0; border-radius: 5pt;}
 article content { text-align:left;}
 article content h1 { font-size:2em; }
 article content h2 { font-size:1.4em; }
-article content p{ margin:3% 0; line-height:1.6em; color:#3D3935 !important;}
+article content p{ margin:30% 0; line-height:1.6em; color:#3D3935 !important;}
 article content a{ font-weight:inherit; text-decoration: underline; color:#ff00d8; }
 article content .content-image{ display:grid; grid-template-columns: 1fr auto; margin:0; border-radius: 5pt;}
 article content .content-image img{ width: 100%; height: auto; }
@@ -184,20 +183,28 @@ article content span{  }
 .folio-info p { margin:0; font-size:7pt; letter-spacing: 3pt; text-transform: uppercase;}
 .folio-page img{width:100%; height:auto; display: block; border-radius:0;}
 
+.page-folio-gallery{display: grid; grid-template-columns: repeat(1, 1fr); margin:40px 0; grid-row-gap: 10px;}
+.page-folio-gallery img{margin:0; border-radius: 0;}
+
+.testimonial { padding:8% 5%; margin:20% 0 10% 0; text-align: center; background-color: rgb(226, 226, 226); border-radius:10pt;}
+.testimonial blockquote {margin: 0; width: 100%; padding: 0; font-size:15pt; vertical-align: middle; text-align: center; font-style: italic; color:rgb(126, 126, 126);}
+.testimonial blockquote:before { color:rgb(124, 124, 124); content: open-quote; font-size: 4em; line-height: 0.1em; margin-right: 0.25em; vertical-align: -0.4em; }
+.testimonial blockquote:after { color:rgb(124, 124, 124); content: close-quote; font-size: 4em; line-height: 0.1em; margin-left: 0.05em; vertical-align: -0.5em;}
+.testimonial blockquote p {display: inline; text-align: center;}
+
+
 .contact-me{border-top: solid 2pt #ff00d8; border-bottom: solid 2pt #ff00d8; padding:5% 0; margin:7%; text-align:center;}
 .contact-me h3{text-align:center !important; font-size:1.2em; margin:0 0 2% 0;}
 .contact-me a{color:#000; font-weight: bold; line-height: 1.6em; letter-spacing:1pt; margin:0 2%;}
 
 footer{ background-color: #000; color:#fff; padding:5% 0; text-align:center; font-weight: 100; }
 footer h2{font-size:0.7em; letter-spacing:2pt;}
-footer p{padding-top:1%; text-align:center; font-weight: 100; font-size:0.8em; }
+footer p{padding-top:1%; text-align: center; font-weight: 100; font-size:0.8em; margin:0;}
 footer img{width: 35px; height: auto; margin: 2% 4%; fill:#fff; filter: invert(1); display:inline;}
 
 
-
-
 @media (min-width: 900px) { 
-    .header-main{grid-template-columns: 1fr 10%;}
+    .header-main, .header-page{grid-template-columns: 1fr 10%;}
     .header-page .logo{width:160px; height:auto; margin:1% 4%; padding:0; display: inline-block; }
     .header-page #roundButton{margin:50% 0 !important; vertical-align: middle;}
 
@@ -217,18 +224,12 @@ footer img{width: 35px; height: auto; margin: 2% 4%; fill:#fff; filter: invert(1
     .graphics .button a{background-color: transparent; color: #ff00d8;; padding: 0.5em 0.8em; margin:5% 0 !important; border-radius: 6pt; border:2pt solid #ff00d8;; text-transform: uppercase; letter-spacing: 0.5pt; font-weight:normal; font-size:1.5em; text-decoration: none; display:inline-block;}
     .graphics .button a:hover{background-color: #ff00d8;; color:#fff;}
 
-
-
-
     .folio{width:100%; margin: 0 auto; padding: 0 20%;}
-
 
     .home-blog{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: auto; grid-column-gap: 20px; grid-row-gap: 0; text-align: center; width:90%; margin:0 auto;}
     .home-blog h2{grid-row:1; grid-column:1/-1; color:#fff; background:#ff00d8; display:inline-block; padding:0.5em 0.8em; text-align:center;}
     .home-blog article{ grid-row-start: 2; width:100%; box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2); margin: 0 auto; border-radius: 9pt; background-color:black; color:#fff;}
     
-    
-
     article{ width:70%; margin:0 auto; }
     article h1, article h2, article h3,{ text-align: left; }
     article h1{ font-size:2.6em; margin:5% 0 0 0;}
@@ -247,7 +248,6 @@ footer img{width: 35px; height: auto; margin: 2% 4%; fill:#fff; filter: invert(1
     
     .pagination { text-align: center; width:100%; padding:1% 0 2% 0;}
 
-
     .folio-page{width:90%; margin:0 auto 5% auto; display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(1, 1fr); grid-column-gap: 10px; grid-row-gap: 10px;}
     .folio-page a{position:relative; text-align: center; color: white; display:block;}
     .folio-page a:hover{filter: opacity(50%);}
@@ -255,9 +255,16 @@ footer img{width: 35px; height: auto; margin: 2% 4%; fill:#fff; filter: invert(1
     .folio-info { position: absolute !important; top: 50%; left: 50%; transform: translate(-50%, -50%); padding:5%; width:auto; background:#000; filter: opacity(70%);}
     .folio-info p{ margin:5% 0; }
 
+    .page-folio-gallery{display: grid; grid-template-columns: repeat(3, 1fr); grid-column-gap: 10px; grid-row-gap: 10px;}
+    .page-folio-gallery img{margin:0;}
+
+    .testimonial { padding:5% 2%; margin:10% 0 5% 0; border-radius:10pt;}
+    
     .archive-page{display: grid; grid-template-columns: 1fr 1fr 1fr; grid-auto-rows: auto; grid-column-gap: 10px; grid-row-gap: 10px; text-align: center; width:90%; margin:0 auto;}
     .archive-page h2{ grid-row:1; grid-column: span 3; width:100%; color:#fff; background:#ff00d8; display:inline-block; padding:0.5em 0.8em; margin:2% auto; text-align:center;}
     .archive-page article{ width:100%; box-shadow: 0 3px 24px rgba(0, 0, 0, 0.2); margin: 0 auto 5% auto; border-radius: 9pt; background-color:black; color:#fff;}
+    
+    .contact-me{border-top: solid 2pt #ff00d8; border-bottom: solid 2pt #ff00d8; padding:2% 0; margin:3% 15%; width:70%; text-align:center;}
 
     footer{ background-color: #000; color:#fff; padding:3% 0; text-align:center; font-weight: 100; }
     footer h2{font-size:0.7em; letter-spacing:2pt; margin:0;}
