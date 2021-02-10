@@ -2,18 +2,15 @@
 ---
 {% include header.html %}
 
-<article>
+<main class="main-article">
 
     <h1>{{page.client}}</h1>
-
     <img src="{{site.url}}/assets/img/folio/{{page.image}}" alt="{{page.image-alt}}">
-    
     <description>{{page.image-description}}</description>
 
     {{ content }}
 
-
-    <div class="page-folio-gallery">
+    <section class="page-folio-gallery">
         {% if page.image-1 %}<img src="{{site.url}}/assets/img/folio/{{page.image-1}}" alt="">{% endif %}
         {% if page.image-2 %}<img src="{{site.url}}/assets/img/folio/{{page.image-2}}" alt="">{% endif %}
         {% if page.image-3 %}<img src="{{site.url}}/assets/img/folio/{{page.image-3}}" alt="">{% endif %}
@@ -24,16 +21,16 @@
         {% if page.image-8 %}<img src="{{site.url}}/assets/img/folio/{{page.image-8}}" alt="">{% endif %}
         {% if page.image-9 %}<img src="{{site.url}}/assets/img/folio/{{page.image-9}}" alt="">{% endif %}
         {% if page.image-10 %}<img src="{{site.url}}/assets/img/folio/{{page.image-10}}" alt="">{% endif %}
-    </div>
+    </section>
 
-    <div class="contact-me">
-        <h3>Get In Contact</h3>
+    <section class="contact-me">
+        <h2>Get In Contact</h2>
         <a href="tel:+4407703049609">Give Me A Call</a> | <!--
         <a href="https://tawk.to/chat/5f654adef0e7167d0011bc62/default">Live chat with me</a> | -->
         <a href="mailto:andy@imsofunky.com">Shoot me an email</a> </br>
         <!-- <a href="{{site.url}}/assets/files/credentials_portfolio.pdf">Download Full Credentials</a> -->
-    </div>
+    </section>
 
-</article>
+</main>
 
 {% include footer.html %}

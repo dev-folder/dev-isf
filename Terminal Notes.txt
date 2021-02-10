@@ -1,0 +1,18 @@
+JEKYLL_ENV=production bundle exec jekyll serve --watch --baseurl "" --incremental --future --livereload --trace
+
+this loads all the plugins as well as the site.
+
+
+
+
+
+
+
+
+
+yials ydirde
+
+lydia sirdey
+
+
+yialsydirde

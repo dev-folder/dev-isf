@@ -2,7 +2,7 @@
 layout: post
 date: Thursday 23 may 2020
 author: Andy Brown
-authorimage: andy.jpg
+authorimage: andy.png
 title: Top 5 Domain Name Providers
 excerpt: There are many domain providers and they all technically offer the same service. From my experience of using their product and service, here is my top five.
 categories: [ Websites ]

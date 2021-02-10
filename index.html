@@ -4,6 +4,7 @@ lang: en
 ref: index
 description: 
 ---
+
 <section class="graphics">
 	<div class="g-img"><img src="{{site.url}}/assets/img/folio/branding.jpg" alt="Business cards stacked on top of eachother"></div>
 	<div><h2>Our Graphic designers will help you design and build your brand awareness for your audience</h2></div>
@@ -12,8 +13,7 @@ description:
 	
 	<div class="button"><a href="{{site.url}}/portfolio/">See portfolio</a></div>
 
-	<p>This is the text blurb....</p>
-
+	<p>Our graphic designers will help you design and build your brand awareness for your audience</p>
 </section>
 
 <section class="folio">
@@ -22,10 +22,9 @@ description:
 	<p>Need a website for your project asap? but you want it to look hot and beat your competition, install our template now and have your website online within five minutes.</p>
 
 	<div class="button"><a href="{{site.url}}/portfolio/">See portfolio</a></div>
-
 </section>
 
-<div class="home-blog">
+<section class="home-blog">
 	<h2>Read from the blog...</h2>
 	
 	{% for post in site.posts limit:3 %}
@@ -50,10 +49,10 @@ description:
 			{% endif %}</div>
 		</article>
 	{% endfor %}
-</div>
+</section>
 
 <!-- Pagination links -->
-<div class="pagination">
+<section class="pagination">
 	<a href="{{ site.url }}/blog/" title="Read more articles in our blog"> Read more posts</a></br>
 
 	<!-- Pagination links 
@@ -71,5 +70,4 @@ description:
 			<span class="next ">Next</span>
 		{% endif %}
 	-->
-	
-</div>
+</section>

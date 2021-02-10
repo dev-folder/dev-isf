@@ -8,13 +8,13 @@ baseurl: "https://dev-folder.github.io/dev-isf"
 permalink: /blog/:categories/:title/
 exclude: ['README.md']
 future: true
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-archives, jekyll-minifier]
 paginate: 3
 paginate_path: "/blog/page:num/"
 plugins:
   - jekyll-archives
   - jekyll-paginate
-
+  - jekyll-minifier
 # Archives
 jekyll-archives:
   enabled:
@@ -24,18 +24,20 @@ jekyll-archives:
     category: '/category/:name/'
 
 # Social Media Accounts
-facebook: imsofunkystudio
+facebook: imsofunky
 twitter: imsofunky
 instagram: imsofunky
 pinterest: imsofunky
 linkedin: imsofunky
+youtube: imsofunky
+pinterest: imsofunky
 email: andy@imsofunky.com
 collections:
   portfolio:
     output: true
 
 # SEO
-google-analytics:
+google-analytics: UA-4725744-16
 google-search-console:
-bing-analytics:
+bing-analytics: 84ECEB983B8B3AC51BD42C217FE69655
 bing-webmaster-tools:

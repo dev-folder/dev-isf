@@ -2,14 +2,13 @@
 ---
 {% include header.html %}
 
-<article>
+<main class="main-article">
 
     <h1>{{page.client}}</h1>
     </br>
     <p>{{page.description}}</p>
     
-
-    <div class="page-folio-gallery">
+    <section class="page-folio-gallery">
         {% if page.image-1 %}<img src="{{site.url}}/assets/img/folio/{{page.image-1}}" alt="{{page.image-1-alt}}">{% endif %}
         {% if page.image-2 %}<img src="{{site.url}}/assets/img/folio/{{page.image-2}}" alt="{{page.image-2-alt}}">{% endif %}
         {% if page.image-3 %}<img src="{{site.url}}/assets/img/folio/{{page.image-3}}" alt="{{page.image-3-alt}}">{% endif %}
@@ -20,24 +19,25 @@
         {% if page.image-8 %}<img src="{{site.url}}/assets/img/folio/{{page.image-8}}" alt="{{page.image-8-alt}}">{% endif %}
         {% if page.image-9 %}<img src="{{site.url}}/assets/img/folio/{{page.image-9}}" alt="{{page.image-9-alt}}">{% endif %}
         {% if page.image-10 %}<img src="{{site.url}}/assets/img/folio/{{page.image-10}}" alt="{page.image-10-alt}}">{% endif %}
-    </div>
+    </section>
     
     {{ content }}
 
 
-{% if page.testimonial %}
-    <section class="testimonial">
-        <span><blockquote>{{page.testimonial}}</blockquote> - {{page.testimonial-name}}</span>
-    </section>
-{% endif %}
+    {% if page.testimonial %}
+        <section class="testimonial">
+            <span><blockquote>{{page.testimonial}}</blockquote> - {{page.testimonial-name}}</span>
+        </section>
+    {% endif %}
 
-<div class="contact-me">
+    <section class="contact-me">
         <h3>Get In Contact</h3>
         <a href="tel:+4407703049609">Give Me A Call</a> | <!--
         <a href="https://tawk.to/chat/5f654adef0e7167d0011bc62/default">Live chat with me</a> | -->
         <a href="mailto:andy@imsofunky.com">Shoot me an email</a> </br>
         <!-- <a href="{{site.url}}/assets/files/credentials_portfolio.pdf">Download Full Credentials</a> -->
-</div>
+    </section>
 
-</article>
+</main>
+
 {% include footer.html %}
